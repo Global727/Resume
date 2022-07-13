@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TD Banknorth Riley</title>
+        <link rel="stylesheet" href="./styles3.css">
+        <link href="/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="hero-text"><h1>TD Banknorth Riley</h1></div>
+
+         <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+            <a class="navbar-brand data-toggle="tooltip" data-placement="bottom" title="Click Here to Navigate to the Home Page" href="index2.html">Home</a>
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+              <ul class="navbar-nav justify-content-end ">
+                <li class="nav-item ">
+                  <a class="nav-link data-toggle="tooltip" data-placement="bottom" title="Click Here to Navigate to the Withdraw Page" href="withdraw.html">Withdraw</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link data-toggle="tooltip" data-placement="bottom" title="Click Here to Navigate to the Deposit Page" href="deposit.html">Deposit</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link data-toggle="tooltip" data-placement="bottom" title="Click Here to Navigate to the All data Page"  href="alldata.html">All Data</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active data-toggle="tooltip" data-placement="bottom" title="Your're already on this page"  href="createaccount.html">Create Account</a>
+                  </li>
+            </div>
+          </nav>
+<header>
+  <div class="collapse bg-dark" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-md-7 py-4">
+          <p class="text-muted">Create Account Page</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+</header>
+ 
+
+
+
+
+
+<!--
+
+
+
+    HEADER END
+HEADER END
+HEADER END
+HEADER END
+HEADER END
+HEADER END
+  
+
+
+
+
+-->
+
+
+
+
+
+
+  <main>
+
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">Create Account Page</h1>
+        <p class="lead text-muted">This Project Utilizes React</p>
+        
+      </div>
+    </div>
+  </section>
+
+<!--
+    
+    
+    
+    CARD START
+    CARD START
+    CARD START
+    CARD START
+    CARD START
+    CARD START
+    CARD START
+
+
+<!-->
+
+
+  <div class="card col-sm-8 col-md-7 py-4 mx-auto " style="width: 80%; ">
+    <img class="card-img-top" height = "auto"  Width= "50" src="pennies.jpg" alt="Card image cap">
+    <div class="card-body" >
+      <h5 style="font-size:30px" class="card-title">Fill in Your Account Info</h5>
+      
+      
+      <div class="col-md-7 col-lg-8 mx-auto ">
+        <h4 class="mb-3 py-4"></h4>
+        <form class="needs-validation" novalidate>
+          <div class="row g-3">
+            <div class="col-sm-6 input">
+              <label for="username" class="form-label float-left ">Username</label>
+              <input type="text" class="form-control " id="firstName" placeholder="bob123" value="" required>
+              <div class="invalid-feedback">
+                Field cannot be left blank.
+              </div>
+            </div>
+
+            <div class="col-sm-6  input ">
+              <label for="password" class="form-label float-left ">Password</label>
+              <input type="text" class="form-control " id="lastName" minlength="8" placeholder="Atleast 8 Characters" value="" required>
+              <div class="invalid-feedback">
+                8 Characters Required for password
+              </div>
+              
+              <div class="col-sm-100 input ">
+                <label for="email" class="form-label float-left">Email</label>
+                <input type="email" class="form-control " id="email" placeholder="bob@123.com" value="" required>
+                <div class="invalid-feedback">
+                  Blank or invalid email address.
+                </div>
+
+             
+              <button class="w-100 btn btn-primary btn-lg  mt-2 button" type="submit" onClick= >Create Your Account</button> 
+             
+              <script>
+                let input = document.querySelector("div.input");
+                let button = document.querySelector(".button");
+                button.disabled = true;
+                input.addEventListener("change", stateHandle);
+                
+                function stateHandle() {
+                    if(document.querySelector(".input").value === "") {
+                        button.disabled = true;
+                    } else {
+                        button.disabled = false;
+                    }
+                }
+                </script>
+            </div>
+
+    
+            </div>
+
+    
+         
+       
+
+       
+          </div>
+       
+          
+    </div>
+  </div>
+  
+ 
+
+ 
+
+  <!--
+      
+    
+    
+    
+    
+    
+FOOTER START
+FOOTER START
+FOOTER START
+FOOTER START
+FOOTER START
+FOOTER START
+
+
+
+-->
+
+  <footer class="my-5 pt-5 text-muted text-center text-small">
+    <p class="mb-1">&copy; 2017–2021 TD Banknorth Riley</p>
+    <ul class="list-inline">
+      <li class="list-inline-item"><a href="#">Privacy</a></li>
+      <li class="list-inline-item"><a href="#">Terms</a></li>
+      <li class="list-inline-item"><a href="#">Support</a></li>
+    </ul>
+  </footer>
+</div>
+
+
+    <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script src="form-validation.js"></script>
+      <script src="context.js" defer type="text/babel"></script>
+    </body>
+</html>
